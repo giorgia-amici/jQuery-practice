@@ -55,3 +55,26 @@ $(document).ready(function(){
 With this jQuery function, you will chenge the background color of ```.firstElementClass``` and ```.secondElementClass``` into green.
 
 
+####**Selection Nodes by AttributesValues**
+
+Your selection is based on attribute name and/or value. In this case you will be using brackets.
+
+```javascript
+
+$(document).ready(function(){
+	$('a[title]').html());
+});
+
+```
+
+You are selecting all the ```<a>``` elements that have a title attribute. Or, you can be even more specific:
+
+```javascript
+
+$(document).ready(function(){
+	$('a[title="Hello World"]').html());
+});
+
+```
+
+In this case you are selecting all the ```<a>``` elements that have a ```"Hello World"```title as attribute value.
