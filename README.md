@@ -77,4 +77,7 @@ $(document).ready(function(){
 
 ```
 
-In this case you are selecting all the ```<a>``` elements that have a ```"Hello World"```title as attribute value.
+In this case you are selecting all the ```<a>``` elements that have a ```"Hello World"``` title as attribute value.
+
+
+
