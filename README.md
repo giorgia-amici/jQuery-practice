@@ -1,0 +1,1 @@
+These are a series of exercises about jQuery
