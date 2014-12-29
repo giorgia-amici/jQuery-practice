@@ -6,8 +6,12 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="Scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            alert($('#TestDiv').html());
+        // $(document).ready(function () {
+        //     alert($('.RedDiv').html());
+        // });
+        $(document).ready(function(){
+            $('div.BlueDiv, .RedDiv').css('border', '2px solid green');
+            // to be even more specific and avoid you to scan the whole DOM
         });
     </script>
 </head>
