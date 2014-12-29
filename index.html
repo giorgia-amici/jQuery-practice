@@ -4,10 +4,10 @@
 <head>
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="Scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('div[title*="Title"]').html('Updated Div Value due to Title');
+            alert($('#TestDiv').html());
         });
     </script>
 </head>
@@ -47,9 +47,9 @@
     <div class="RedDiv">
         <span>Red div</span>
     </div>
-    <p>
+<!--     <p>
         <img src="Images/pluralsight.png" />
-    </p>
+    </p> -->
 
     <form id="form1" runat="server">
         <table style="width:300px;">
