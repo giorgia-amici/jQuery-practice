@@ -18,7 +18,7 @@ Is really easy to select a HTML element with jQuery by using the element's id.
 ```javascript
 
 $(document).ready(function(){
-		$('#elementId').html());
+	$('#elementId').html());
 });
 
 ```
@@ -27,7 +27,7 @@ You can also get different elements via the differnt IDs:
 ```javascript
 
 $(document).ready(function(){
-		$('#firstElementId', '#secondElementId').html());
+	$('#firstElementId', '#secondElementId').html());
 });
 
 ```
@@ -39,8 +39,19 @@ This selector works as the one above.
 ```javascript
 
 $(document).ready(function(){
-		$('.elementClass').html());
+	$('.elementClass').html());
 });
 
 ```
+
+By selecting class elements, you can for instance change their CSS, as in the example below:
+
+```javascript
+$(document).ready(function(){
+	$('.firstElementClass', '.secondElementClass').css('background-color', ' green');
+});
+
+```
+With this jQuery function, you will chenge the background color of ```.firstElementClass``` and ```.secondElementClass``` into green.
+
 
