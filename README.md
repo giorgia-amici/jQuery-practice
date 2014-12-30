@@ -108,7 +108,18 @@ In this case we want to select a ```div``` that contains the text ```"hello"```.
 
 The ```$('tr:odd')``` and ```$('tr:even')``` is the jQuery syntax for selecting odd and even rows.
 
- 
+```javascript
+
+
+```
+
+#####Selecting First Child
+This is the syntax for selecting the first-child: ```$('element:first-child')```.
+
+```javascript
+
+$('span:first-child')
+``` 
 
 
 
