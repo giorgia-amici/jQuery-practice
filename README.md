@@ -131,5 +131,12 @@ If you need to select all the elements with an attribute that begins with a star
 	$('input[value^="Events"]')
 ```
 
+And the HTML looks like this:
+
+```html
+<input type="button" value="Events-One"/>
+```
+
+Above you are selcting any input whose value attribute begins with ```"Events"```.
 
 
