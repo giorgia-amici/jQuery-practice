@@ -93,14 +93,22 @@ It selects everything associated with a form.
 
 ####**Additional Selector Features**
 
-#####Contains()
+#####Contains selector
 
 
-The ```:contains()``` selector that search for matching text.
+The ```:contains()``` selector searches for matching text.
 
 ```javascript
 
 $('div:contains("hello")')
 ```
+In this case we want to select a ```div``` that contains the text ```"hello"```. The contains() search is case-sensitive.
+
+#####Even or Odd Rows in a table selector
+
+The ```$('tr:odd')``` and ```$('tr:even')``` is the jQuery syntax for selecting odd and even rows.
+
+ 
+
 
 
