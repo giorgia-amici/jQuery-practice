@@ -128,7 +128,7 @@ It will search in all the spans and select all the first-child in the spans.
 If you need to select all the elements with an attribute that __begins__ with a started value, this will be the basic syntax: ```[attribute^="value"]```. Below is an example:
 
 ```javascript
-	$('input[value^="Events"]')
+$('input[value^="Events"]')
 ```
 
 And the HTML looks like this:
