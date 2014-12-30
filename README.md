@@ -93,5 +93,14 @@ It selects everything associated with a form.
 
 ####**Additional Selector Features**
 
+#####Contains()
+
+
+The ```:contains()``` selector that search for matching text.
+
+```javascript
+
+$('div:contains("hello")')
+```
 
 
