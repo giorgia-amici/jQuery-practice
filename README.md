@@ -79,5 +79,15 @@ $(document).ready(function(){
 
 In this case you are selecting all the ```<a>``` elements that have a ```"Hello World"``` title as attribute value.
 
+####**Selecting by InputNodes**
+
+For selecting inputs elements like: input, button, image, etc.
+This is the basic syntax:
+
+```javascript
+$(':input')
+
+```
+
 
 
