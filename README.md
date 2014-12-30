@@ -125,7 +125,7 @@ It will search in all the spans and select all the first-child in the spans.
 
 #####Using starts whitin Selectors
 
-If you need to select all the elements with an attribute that begins with a started value, this will be the basic syntax: ```[attribute^="value"]```. Below is an example:
+If you need to select all the elements with an attribute that __begins__ with a started value, this will be the basic syntax: ```[attribute^="value"]```. Below is an example:
 
 ```javascript
 	$('input[value^="Events"]')
@@ -143,5 +143,9 @@ Above you are selcting any input whose value attribute begins with ```"Events"``
 $('input[value$="Events"]')
 
 ``` 
+While, if you just want to select all the input that __contains__ ```"Events"``` in the value attribute, your syntax will look something like:
 
+```javascript
+$('input[value*="Events"]')
+```
 
