@@ -137,6 +137,11 @@ And the HTML looks like this:
 <input type="button" value="Events-One"/>
 ```
 
-Above you are selcting any input whose value attribute begins with ```"Events"```.
+Above you are selcting any input whose value attribute begins with ```"Events"```. If you want to select all the input that __ends__ with the word ```"Events"``` the code will look like this:
+
+```javascript
+$('input[value$="Events"]')
+
+``` 
 
 
