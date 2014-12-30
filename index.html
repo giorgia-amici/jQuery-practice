@@ -16,13 +16,18 @@
         //     to be even more specific and avoid you to scan the whole DOM
         // });
 
-        $(document).ready(function(){
-            var inputTags = $('input[type="text"]');
+        // $(document).ready(function(){
+            // var inputTags = $('input[type="text"]');
             // sp that inputTags now is a jQuery obj and has access to all the jQuery methods 
-            inputTags.css('background-color', 'yellow');
+            // inputTags.css('background-color', 'yellow');
+        // });
+        $(document).ready(function(){
+            var inputs = $(':input');
+            // all text areas, buttons => everything associated with a form
+            
         });
 
-        
+
  
     </script>
 </head>
@@ -89,7 +94,6 @@
                 <td>&nbsp;</td>
             </tr>
         </table>  
-
     </form>
 </body>
 </html>
