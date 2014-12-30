@@ -21,13 +21,22 @@
             // sp that inputTags now is a jQuery obj and has access to all the jQuery methods 
             // inputTags.css('background-color', 'yellow');
         // });
-        $(document).ready(function(){
-            $(':input').each(function(){
-                var elem = $(this);
-                alert(elem.val('Foo'));
+
+        // $(document).ready(function(){
+        //     $(':input').each(function(){
+        //         var elem = $(this);
+        //         alert(elem.val('Foo'));
                 // in that case will set the value of all the inputs to 'Foo': easy to assign values in this way.
-            });          
-        });
+        //     });          
+        // });
+            $(document).ready(function(){
+                $('#form1 :input').each(function(){
+                    // you can also select a specific form from which you want to access the inputs using the form id
+                    var elem = $(this);
+                    alert(elem.val());
+                });
+
+            });
 
 
  
