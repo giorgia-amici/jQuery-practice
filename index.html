@@ -22,8 +22,11 @@
             // inputTags.css('background-color', 'yellow');
         // });
         $(document).ready(function(){
-            var inputs = $(':input');
-            alert($(inputs[0]).val());
+            $(':input').each(function(){
+                var elem = $(this);
+                alert(elem.val('Foo'));
+                // in that case will set the value of all the inputs to 'Foo': easy to assign values in this way.
+            });          
         });
 
 
