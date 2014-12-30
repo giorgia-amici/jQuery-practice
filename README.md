@@ -120,6 +120,16 @@ This is the syntax for selecting the first-child: ```$('element:first-child')```
 
 $('span:first-child')
 ``` 
+It will search in all the spans and select all the first-child in the spans.
+
+
+#####Using starts whitin Selectors
+
+If you need to select all the elements with an attribute that begins with a started value, this will be the basic syntax: ```[attribute^="value"]```. Below is an example:
+
+```javascript
+	$('input[value^="Events"]')
+```
 
 
 
